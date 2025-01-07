@@ -1,0 +1,18 @@
+// Inspired by DotNetPortfolio setup
+{
+    "image": "hugomods/hugo",
+
+    "forwardPorts": [1313],
+    
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "budparr.language-hugo",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "GitHub.copilot",
+                "GitHub.copilot-chat"
+            ]
+        }
+    },      
+    "onCreateCommand": "/bin/bash ./.devcontainer/on-create.sh > ~/on-create.log"
+}
