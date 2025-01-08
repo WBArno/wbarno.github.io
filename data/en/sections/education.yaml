@@ -18,13 +18,14 @@ degrees:
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
   grade:
-    scale: GPA
-    achieved: 3.87
+    scale: Regent's GPA
+    achieved: 4
     outOf: 4
   takenCourses: 
     # TODO: Consider disabling showGrades
     showGrades: true 
     collapseAfter: 4
+    showGrades: false
     courses:
     - name: MGMT 4700 - Strategic Management (Capstone)
       achieved: 4
@@ -87,8 +88,6 @@ degrees:
   - International Business Club - President, Vice President, Treasurer
   - Student Business Association Student Advisory Board - Board Member
   customSections:
-    - name: Regent's GPA
-      content: Achieved a Regent's GPA of 4.0 (all A's in all but one transfer semester from 2013)
     - name: Honors and Awards
       content: Summa Cum Laude, Beta Gamma Sigma Membership, Spirit of the Grizzly Award, Many President's and Dean's List Awards
   
