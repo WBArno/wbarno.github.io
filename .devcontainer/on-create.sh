@@ -5,6 +5,8 @@
 #     && sudo apt clean -y \
 #     && sudo rm -rf /var/lib/apt/lists/*
 
+apk add --update --no-cache git go nodejs npm
+
 # Start Hugo Server
 hugo mod tidy
 hugo mod npm pack
