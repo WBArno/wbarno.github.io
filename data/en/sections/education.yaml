@@ -2,15 +2,13 @@
 section:
   name: Education
   id: education
-  template: sections/education-alt.html # Use "sections/education-alt.html for alternate template.
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 4
+  weight: 3
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
 degrees:
-- name: BBA in Management Information Systems; Minor in Information Technology
+- name: BBA in Management Information Systems; Information Technology Minor
   icon: fa-briefcase
   timeframe: 2019-2023
   institution:
@@ -19,61 +17,98 @@ degrees:
     logo: /images/sections/education/ggc_logo.svg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
-  grade: #(optional)
+  grade:
     scale: GPA
     achieved: 3.87
     outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: false
-    collapseAfter: 3
+  takenCourses: 
+    # TODO: Consider disabling showGrades
+    showGrades: true 
+    collapseAfter: 4
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
+    - name: MGMT 4700 - Strategic Management (Capstone)
+      achieved: 4
       outOf: 4
-    - name: Network Security
-      achieved: 3.80
+    - name: MGMT 4100 - Organizational Behavior
+      achieved: 4
       outOf: 4
-    - name: Operating System
-      achieved: 3.5
+    - name: ITEC 3300 - Information Security
+      achieved: 4
       outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
+    - name: MIS 3600 - Business Intelligence for Managers
+      achieved: 4
       outOf: 4
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  custonSections: #(optional)
-    - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
+    - name: MIS 4620 - Systems Analysis and Design
+      achieved: 4
+      outOf: 4
+    - name: MIS 4200 - Organizations and Technology
+      achieved: 4
+      outOf: 4
+    - name: MGMT 4650 - International Management of IT
+      achieved: 4
+      outOf: 4
+    - name: MGMT 4220 - Project Management
+      achieved: 4
+      outOf: 4
+    - name: ITEC 3100 - Introduction to Networks
+      achieved: 4
+      outOf: 4
+    - name: BUSA 3200 - Global Business
+      achieved: 4
+      outOf: 4
+    - name: MKTG 4700 - International Studies in a Virtual World
+      achieved: 4
+      outOf: 4
+    - name: MGMT 3000 - Principles of Management
+      achieved: 4
+      outOf: 4
+    - name: ITEC 4400 - Python Programming Data Analysis
+      achieved: 4
+      outOf: 4
+    - name: ITEC 3200 - Introduction to Databases
+      achieved: 4
+      outOf: 4
+    - name: ITEC 2140 - Programming Fundamentals
+      achieved: 4
+      outOf: 4
+    - name: BUSA 3100 - Management Information Systems
+      achieved: 4
+      outOf: 4
+    - name: BUSA 3000 - Quantitative Analysis for Business
+      achieved: 4
+      outOf: 4
+    - name: BUSA 2105 - Communicating in the Business Environment
+      achieved: 4
+      outOf: 4
+    - name: ITEC 2120 - Introduction to Programming
+      achieved: 4
+      outOf: 4      
+  extracurricularActivities:
+  - International Business Club - President, Vice President, Treasurer
+  - Student Business Association Student Advisory Board - Board Member
+  customSections:
+    - name: Regent's GPA
+      content: Achieved a Regent's GPA of 4.0 (all A's in all but one transfer semester from 2013)
+    - name: Honors and Awards
+      content: Summa Cum Laude, Beta Gamma Sigma Membership, Spirit of the Grizzly Award, Many President's and Dean's List Awards
   
 - name: Foreign Exchange Studies 
   icon: fa-plane-departure
-  timeframe: 2012-2016
+  timeframe: Fall 2022
   institution: 
     name: 関西外国語大学 (Kansai Gaidai University)
     url: "https://www.kansaigaidai.ac.jp/en/"
     logo: /images/sections/education/kgu_logo.png
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: false
+  takenCourses:
     collapseAfter: 4
     courses:
-    - name: Data Structures and Algorithm
-    - name: Network Security
-    - name: Operating System
-    - name: Artificial Intelligent
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  custonSections: #(optional)
-    - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
+    - name: Japanese Language
+    - name: Tyrants, Dictators, and Strongmen
+    - name: Global History of Asia
+    - name: Politics of the Japanese Empire
+  extracurricularActivities:
+  - Osaka Global Student Ambassador Network
+  - International Student Week
+  customSections:
+    - name: Scholarship
+      content: Gilman Scholarship Awardee via the U.S. Department of State
