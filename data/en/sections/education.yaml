@@ -18,77 +18,36 @@ degrees:
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
   grade:
-    scale: GPA
-    achieved: 3.87
-    outOf: 4
+    scale: Regent's GPA
+    achieved: 4.0
   takenCourses: 
-    # TODO: Consider disabling showGrades
     showGrades: true 
     collapseAfter: 4
+    showGrades: false
     courses:
     - name: MGMT 4700 - Strategic Management (Capstone)
-      achieved: 4
-      outOf: 4
     - name: MGMT 4100 - Organizational Behavior
-      achieved: 4
-      outOf: 4
     - name: ITEC 3300 - Information Security
-      achieved: 4
-      outOf: 4
     - name: MIS 3600 - Business Intelligence for Managers
-      achieved: 4
-      outOf: 4
     - name: MIS 4620 - Systems Analysis and Design
-      achieved: 4
-      outOf: 4
     - name: MIS 4200 - Organizations and Technology
-      achieved: 4
-      outOf: 4
     - name: MGMT 4650 - International Management of IT
-      achieved: 4
-      outOf: 4
     - name: MGMT 4220 - Project Management
-      achieved: 4
-      outOf: 4
     - name: ITEC 3100 - Introduction to Networks
-      achieved: 4
-      outOf: 4
     - name: BUSA 3200 - Global Business
-      achieved: 4
-      outOf: 4
     - name: MKTG 4700 - International Studies in a Virtual World
-      achieved: 4
-      outOf: 4
     - name: MGMT 3000 - Principles of Management
-      achieved: 4
-      outOf: 4
     - name: ITEC 4400 - Python Programming Data Analysis
-      achieved: 4
-      outOf: 4
     - name: ITEC 3200 - Introduction to Databases
-      achieved: 4
-      outOf: 4
     - name: ITEC 2140 - Programming Fundamentals
-      achieved: 4
-      outOf: 4
     - name: BUSA 3100 - Management Information Systems
-      achieved: 4
-      outOf: 4
     - name: BUSA 3000 - Quantitative Analysis for Business
-      achieved: 4
-      outOf: 4
     - name: BUSA 2105 - Communicating in the Business Environment
-      achieved: 4
-      outOf: 4
-    - name: ITEC 2120 - Introduction to Programming
-      achieved: 4
-      outOf: 4      
+    - name: ITEC 2120 - Introduction to Programming    
   extracurricularActivities:
   - International Business Club - President, Vice President, Treasurer
   - Student Business Association Student Advisory Board - Board Member
   customSections:
-    - name: Regent's GPA
-      content: Achieved a Regent's GPA of 4.0 (all A's in all but one transfer semester from 2013)
     - name: Honors and Awards
       content: Summa Cum Laude, Beta Gamma Sigma Membership, Spirit of the Grizzly Award, Many President's and Dean's List Awards
   
