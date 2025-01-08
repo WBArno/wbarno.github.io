@@ -13,6 +13,6 @@
                 "GitHub.copilot-chat"
             ]
         }
-    },      
-    "onCreateCommand": "/bin/bash ./.devcontainer/on-create.sh > ~/on-create.log"
+    }//,      
+    //"onCreateCommand": "/bin/bash ./.devcontainer/on-create.sh > ~/on-create.log"
 }
