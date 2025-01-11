@@ -7,14 +7,12 @@ image: "images/author/will.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "contact@williamarnold.info"
-  phone: "+17708105809"
   github: WBArno
   linkedin: WilliamBArnold
 
 # A personal summary
 summary:
-  - I am a Developer
+  - I am an IT Specialist
   - I am an Amateur Photographer
   - I love servers
-  - I work on open-source projects
-  - I love to work with some fun projects
+  - I enjoy discovering new technologies

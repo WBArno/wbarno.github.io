@@ -14,15 +14,12 @@ section:
 #  name: Example Co.
 #  url: "https://www.example.com"
 
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
 
-# a summary about you
+# Summary
 summary: 'This website is under HEAVY CONSTRUCTION! Much of the information is still template-based.'
 
-# your social links
-# give as many as you want. use font-awesome for the icons.
+# Socials
+# Use Font Awesome icons. You can find the icon class name from https://fontawesome.com/icons
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
@@ -54,8 +51,7 @@ resourceLinks:
 - title: "General Cover Letter"
   url: "files/cover-letter.pdf"
   
-# Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
+# Certs
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
