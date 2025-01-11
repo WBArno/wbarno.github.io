@@ -11,4 +11,4 @@ apk add --update --no-cache git go nodejs npm
 hugo mod tidy
 hugo mod npm pack
 npm install
-hugo server -w
+# hugo server -w
