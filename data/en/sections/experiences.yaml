@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiences
+  name: Experience
   id: experiences
   enable: true
   weight: 4
@@ -8,66 +8,42 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true 
 
-# Your experiences
+# Your experience
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
-  positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    name: Publix Super Markets, Inc.
+    url: https://www.publix.com/
+    location: Duluth, GA; Lawrenceville, GA
+    logo: /images/sections/experiences/publix_logo_wordmark_large.heic
+    overview: Publix is a major grocery store chain in the southeastern United States well-known for its heavy focus on customer service and satisfaction.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Scan-Price Clerk
+    start: Jan 2019
+    end: Jul 2021
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Solely relied upon to independently manage and update the pricing of goods in both the internal databases and on displays
+    - Exceeded speed expectations for exchanging price tags by 33% on average while maintaining the necessary attention to detail
+    - Oversaw, managed, and acted as the primary point of contact for contractors which re-arranged and added new items to
 
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Customer Service Staff
+    start: Jul 2018
+    end: Dec 2018
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Handled over $20,000 per shift on average processing money orders, Western Union transactions, lottery tickets, and returns
+    - Managed and oversaw cashiers and front-service clerks in the place of the managers while maintaining the front-end
+    - Efficiently and consistently resolved customers’ issues both in-person and over the phone with a high level of courtesy
+
+  - designation: Cashier
+    start: Jan 2018
+    end: Jul 2018
+    responsibilities:
+    - Relied upon by management to assist the Scan-Price Clerk, decreasing the time taken to complete tasks by over 50%
+    - Spearheaded the implementation of a new drive-up delivery system by teaching other employees how to run the system and writing comprehensive documentation on the process in the case that someone forgot a specific part of the process
+  
+  - designation: Front-Service Clerk
+    start: Feb 2016
+    end: Dec 2017
+    responsibilities:
+    - Chosen as the most efficient bagger by nearly 2 seconds to represent the store in a company competition
+    - Learned the cashiering position solely through observing active registers while bagging groceries
