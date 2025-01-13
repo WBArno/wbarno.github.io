@@ -2,6 +2,7 @@ resources/*
 node_modules/*
 public/*
 .vscode*
+.devbox/*
 
 .DS_Store
 .hugo_build.lock
@@ -9,3 +10,4 @@ package-lock.json
 package.hugo.json
 package.json
 assets/jsconfig.json
+devbox.lock

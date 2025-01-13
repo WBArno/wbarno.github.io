@@ -1,3 +1,9 @@
 {
-    "git.enableCommitSigning": true
+    "git.enableCommitSigning": true,
+    "terminal.integrated.profiles.osx": {
+        "devboxCompatibleShell": {
+            "path": "/bin/zsh",
+            "args": []
+        }
+    }
 }
