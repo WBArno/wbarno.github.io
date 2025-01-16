@@ -11,7 +11,8 @@
                 "budparr.language-hugo-vscode",
                 "VisualStudioExptTeam.vscodeintellicode",
                 "GitHub.copilot",
-                "GitHub.copilot-chat"
+                "GitHub.copilot-chat",
+                "esbenp.prettier-vscode"
             ]
         }
     },      
