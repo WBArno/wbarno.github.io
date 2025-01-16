@@ -1,7 +1,6 @@
 # DevBox Initialization Script
 
-# Start Hugo Server
+# Initialize Hugo Modules
 hugo mod tidy
 hugo mod npm pack
 npm install
-hugo server -w &

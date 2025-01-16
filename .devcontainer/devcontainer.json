@@ -1,6 +1,7 @@
 // Inspired by DotNetPortfolio setup
 {
-    "image": "hugomods/hugo",
+    "image": "hugomods/hugo:latest",
+    //"build": { "dockerfile": "Dockerfile" },
 
     "forwardPorts": [1313],
     
