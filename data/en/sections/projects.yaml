@@ -22,19 +22,20 @@ buttons:
 # your projects
 projects:
 - name: PDA_Project
-  #role: Contributor
+  # logo: 
+  role: Student
   timeline: "Fall 2021"
-  repo: https://github.com/WBArno/PDA_Project   
+  repo: https://github.com/WBArno/PDA_Project 
+  # url: ""  
   summary: An interactive map of the world that displays numerical case data based upon logarithmic comparisons of countries.
   tags: ["academic"]
 
+- name: Portfolio Website
+  logo: /images/site/temp-logo.png
+  role: Maintainer
+  timeline: "Winter 2024 - Present"
+  repo: https://github.com/WBArno/wbarno.github.io
+  summary: This website! Created using a Hugo (static site generator) theme and configured via Docker devcontainers in VSCode.
+  tags: ["professional", "hobby"]
 
-
-#- name: Tensorflow
-#  logo: /images/sections/projects/tensorflow.png
-#  role: Developer
-#  timeline: "Jun 2018 - Present"
-#  repo: https://github.com/WBArno/PDA_Project # If your project is a public repo on GitHub, then provide this link. it will show star count.
-#  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-#  summary: An Open Source Machine Learning Framework for Everyone.
-#  tags: ["professional", "machine-learning"]
+# TODO: Add non-tech projects here
