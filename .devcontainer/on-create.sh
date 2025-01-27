@@ -1,6 +1,6 @@
 # Based on DotNetPortfolio Template
 
-# apk add --update --no-cache git go nodejs npm fish
+apk add --update --no-cache fish openssh
 
 # Start Hugo Server
 hugo mod tidy
