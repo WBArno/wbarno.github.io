@@ -3,6 +3,13 @@
     "image": "hugomods/hugo:latest",
     //"build": { "dockerfile": "Dockerfile" },
 
+    // Enable SSH Forwarding
+    "containerEnv": { "SSH_AUTH_SOCK": "/agent.sock"},
+    "mounts": [
+        "source=${localEnv:SSH_AUTH_SOCK},target=/agent.sock,type=bind,consistency=cached"
+    ],
+
+    // Open Hugo server port
     "forwardPorts": [1313],
     
     "customizations": {
